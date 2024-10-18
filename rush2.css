@@ -1,0 +1,113 @@
+#log {
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+
+.menu-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+}
+
+.menu-sidebar a {
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu-sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.menu-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-size: 3vw;
+    margin-left: 5%;
+}
+
+.search-bar {
+    margin: 4% 0;
+    padding: 0 5%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filter-bar {
+    margin: 3% 0;
+    padding: 0 5%;
+}
+
+.filter-bar select {
+    width: 50%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#navLinks li {
+    margin-right: 25%;
+}
+
+#navLinks li:last-child {
+    margin-right: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Autogère la largeur des colonnes */
+    gap: 20px; /* Espace entre les colonnes */
+}
+
+#article1, #article2, #article3 {
+    width: 100%; 
+    margin-bottom: 5%; 
+}
+
+@media screen and (max-width: 768px) {
+    #article1, #article2, #article3 {
+        width: 45%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #article1, #article2, #article3 {
+        width: 100%; 
+        margin-right: 0; 
+    }
+}
+body {
+    color: white; 
+}
+
+h1, h2, h3, p {
+    color: white; 
+}
+h1, h2, h3, p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); 
+}
+body {
+    background-image: url('Ressources1/mursang.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: black; 
+}
+
