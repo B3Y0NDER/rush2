@@ -72,8 +72,8 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Autogère la largeur des colonnes */
-    gap: 20px; /* Espace entre les colonnes */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
 }
 
 #article1, #article2, #article3 {
